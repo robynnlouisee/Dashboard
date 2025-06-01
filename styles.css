@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Baloo 2', cursive;
+
+}
+
+.profile-pic {
+    width: 40px;    
+    height: 40px;
+    border-radius: 50%;  
+    object-fit: cover;   
+  }
+
+  .user-profile-pic {
+    width: 60px;    
+    height: 60px;
+    border-radius: 50%;  
+    object-fit: cover; 
+  }
