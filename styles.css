@@ -168,7 +168,7 @@ button {
     bottom: 5px;
     left: 280px;
 }
-.project-card .pink::before {
+.project-card.pink::before {
     content: "";
     position: absolute;
     left: -2px;
@@ -178,7 +178,7 @@ button {
     background-color: #E78C89;  
     border-radius: 10px 0 0 10px; 
   }
-  .project-card .blue::before {
+  .project-card.blue::before {
     content: "";
     position: absolute;
     left: -2px;
@@ -188,7 +188,7 @@ button {
     background-color: #98DAF1;  
     border-radius: 10px 0 0 10px; 
   }
-  .project-card .green::before {
+  .project-card.green::before {
     content: "";
     position: absolute;
     left: -2px;
@@ -243,3 +243,33 @@ h2 {
 .side-bar li {
     list-style: none;
  }
+ button:hover {
+  cursor: pointer;
+ }
+ .nav-links li:hover {
+    cursor: pointer;
+ }
+ .project-card:hover {
+    box-shadow: 0 0 20px 5px rgba(255, 255, 255, 0.6), 
+                0 0 30px 10px rgba(255, 255, 255, 0.4);
+    transition: box-shadow 0.3s ease-in-out;
+    position: relative;
+    z-index: 1;
+  }
+  
+  /* Optional: Add colorful glow based on type */
+  .project-card.pink:hover {
+    box-shadow: 0 0 20px 5px #E78C89, 
+                0 0 30px 10px #E78C89;
+  }
+  .project-card.blue:hover {
+    box-shadow: 0 0 20px 5px #98DAF1, 
+                0 0 30px 10px #98DAF1;
+  }
+  .project-card.green:hover {
+    box-shadow: 0 0 20px 5px #81CB71, 
+                0 0 30px 10px #81CB71;
+  }
+
+
+  
