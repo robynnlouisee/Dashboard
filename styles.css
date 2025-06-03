@@ -11,8 +11,8 @@ body {
     height: 100vh;
 }
  .profile-pic {
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
     object-fit: cover;
  }
@@ -31,12 +31,16 @@ body {
     background-color: #33ACE3;
     color: white;
     font-size: 20px;
+    display: flex;
+    flex-direction: column;
 }
 .header {
     grid-area: header;
     padding: 1rem;
     background-color: #EA6964;
     color: white;
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.3); 
+    z-index: 1;
 }
 .main-content {
     grid-area: main;
@@ -101,3 +105,17 @@ button {
     font-weight: bold;
     margin: 10px;
 }
+.nav-links li {
+    display: flex;
+    gap: 30px;
+    padding-bottom: 10px;
+  }
+  .logo-header {
+    font-size: 35px;
+  }
+  .nav-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-left: 10px;
+  }
