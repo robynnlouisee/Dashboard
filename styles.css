@@ -3,7 +3,7 @@ body {
     margin: 0;
     font-family: 'Baloo 2', sans-serif;
     display: grid;
-    grid-template-columns: 300px 1fr 300px;
+    grid-template-columns: 300px 1fr 360px;
     grid-template-rows: auto 1fr 1fr;
     grid-template-areas: 
     "sidebar header header"
@@ -19,8 +19,8 @@ body {
     object-fit: cover;
  }
  .user-profile-pic {
-    width: 70px;
-    height: 70px;
+    width: 60px;
+    height: 60px;
     border-radius: 50%;
     object-fit: cover;
  }
@@ -30,7 +30,6 @@ body {
     background-color: #33ACE3
     ;
     color: white;
-    font-size: 20px;
     display: flex;
     flex-direction: column;
 
@@ -95,7 +94,7 @@ body {
     gap: 20px;
 }
 .username {
-    font-size: 25px;
+    font-size: 22px;
 }
 button {
     color: #EA6964;
@@ -112,12 +111,12 @@ button {
 /** start of sidebar **/
 .nav-links li {
     display: flex;
-    gap: 35px;
+    gap: 40px;
     padding-bottom: 15px;
-    font-size: 23px;
+    font-size: 20px;
   }
   .logo-header {
-    font-size: 35px;
+    font-size: 30px;
   }
   .nav-links {
     display: flex;
@@ -143,7 +142,7 @@ button {
     display: flex;
     flex-direction: column;
     padding-left: 10px;
-    height: 200px;
+    height: 220px;
     width: 350px;
     overflow: visible;
 }
@@ -195,7 +194,23 @@ button {
     background-color: #81CB71;  
     border-radius: 10px 0 0 10px; 
   }
-  
+  /** end of projects **/
+  /** start of announcements **/
+.announcement-cards {
+    border: 2px solid white;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+.announcement-cards h3 {
+    font-size: 14px;
+}
+.announcement-cards p {
+    color: #404040;
+    font-size: 13px;
+}
+
+
 
   
 
