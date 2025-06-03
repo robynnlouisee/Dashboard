@@ -2,8 +2,8 @@ body {
     margin: 0;
     font-family: 'Baloo 2', sans-serif;
     display: grid;
-    grid-template-columns: 250px 1fr 300px;
-    grid-template-rows: auto 1fr 1fr;
+    grid-template-columns: 300px 1fr 300px;
+    grid-template-rows: 180px auto auto;
     grid-template-areas: 
     "sidebar header header"
     "sidebar main announcements"
@@ -17,8 +17,8 @@ body {
     object-fit: cover;
  }
  .user-profile-pic {
-    width: 60px;
-    height: 60px;
+    width: 70px;
+    height: 70px;
     border-radius: 50%;
     object-fit: cover;
  }
@@ -30,6 +30,7 @@ body {
     padding: 1rem;
     background-color: #33ACE3;
     color: white;
+    font-size: 20px;
 }
 .header {
     grid-area: header;
@@ -53,4 +54,50 @@ body {
     padding: 1rem;
     overflow-y: auto;
     background-color: #4AB62C;
+}
+#search-bar {
+    height: 30px;
+    width: 600px;
+    border-radius: 20px;
+    border: none;
+    padding-left: 10px;
+    font-size: 15px;
+}
+.header-1 {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    padding-left: 30px;
+}
+.search-bar-2 {
+    display: flex;
+    gap: 25px;
+    padding-right: 50px;
+}
+.search-bar {
+    display: flex;
+    gap: 10px;
+}
+.header-2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+.greeting-pic {
+    display: flex;
+    gap: 20px;
+}
+.username {
+    font-size: 25px;
+}
+button {
+    color: #EA6964;
+    background-color: white;
+    border: none;
+    font-size: 15px;
+    border-radius: 20px;
+    padding: 10px;
+    width: 100px;
+    font-weight: bold;
+    margin: 10px;
 }
